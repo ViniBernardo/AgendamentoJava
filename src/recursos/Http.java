@@ -15,7 +15,7 @@ import java.net.URL;
  */
 /**
  *
- * @author Rodrigo
+ * @author Vinicius
  */
 public class Http {
 

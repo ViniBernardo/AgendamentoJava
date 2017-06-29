@@ -50,7 +50,7 @@ public class MngMain {
                     System.out.println(new Date().getTime());
                     Timestamp d;
                     System.out.println("Data");
-                    //System.out.println(d = new Timestamp(new Date().getTime()));
+                    System.out.println(d = new Timestamp(new Date().getTime()));
                     Http http = new Http();
                     Gson casaJSON = new Gson();
                     casa = new CasaCliente();

@@ -16,7 +16,7 @@ import modelos.CasaCliente;
 
 /**
  *
- * @author Rodrigo
+ * @author Vinicius
  */
 public class HttpExemplo {
 
@@ -25,9 +25,9 @@ public class HttpExemplo {
      */
     public static void main(String[] args) {
         Http http = new Http();
-        String url = ""; // inserir url
+        String url = "http://localhost:8080/anduino/casa_service"; // inserir url
         
-        String method = ""; // inserir metodo
+        String method = "/tempoCerto"; // inserir metodo
         try {
             // chamada para os metodos get e delete
             //String chamadaJson = http.SendGet(url, method);
